@@ -107,9 +107,14 @@ h2 {
 }
 
 h3 {
+    font-size: 1.4em;
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+}
+
+table styles {
+    table.services
 }
 
 footer {
@@ -146,7 +151,8 @@ footer a:hover {
     text-decoration: underline;
 }
 
-table.pricing {
+/* Table Styles */
+table.schedule {
 	background: white;
 	border: 10px outset rgb(153, 0, 153);
 	border-collapse: collapse;
@@ -189,11 +195,15 @@ table.pricing tbody tr {
 
 /* Column Group Styles */
 col#firstCol {
-	background: rgb(218, 210, 218);
+	background: rgb(163, 20, 20);
 	width: 16%;
 	}
 
 col.dayCols {
 	background: rgb(204, 0, 0);
 	width: 12%;
+}
+
+.visor{
+    width: 200px;
 }
