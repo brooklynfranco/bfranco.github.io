@@ -146,7 +146,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-table.schedule {
+table.pricing {
 	background: white;
 	border: 10px outset rgb(153, 0, 153);
 	border-collapse: collapse;
@@ -156,34 +156,34 @@ table.schedule {
 
 
 /* Table Cell Styles */
-table.schedule th, table.schedule td{
+table.pricing th, table.schedule td{
 	border: 1px solid gray;
 	padding: 5px;
 	vertical-align: top;
 }
 
 /* Table Caption Styles */
-table.schedule caption {
+table.pricing caption {
 	caption-side: bottom;
 	text-align: right;
 }
 
 /* Row Group Styles */
-table.schedule thead{
+table.pricing thead{
 	background: rgb(153, 0, 153);
 	color: white;
 }
 
-table.schedule tfoot {
+table.pricing tfoot {
 	background:black;
 	color: white;
 }
 
-table.schedule thead tr {
+table.pricing thead tr {
 	height: 30px;
 }
 
-table.schedule tbody tr {
+table.pricing tbody tr {
 	height: 40px;
 }
 
