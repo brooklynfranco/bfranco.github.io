@@ -1,0 +1,147 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Brooklyn Franco
+		Date: 11/3/2021
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>4th & 10 Apparel</title>
+   <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="reviewsgallery.html"><img src="images/4th&10HeaderLogo.png" alt="4th and 10 Apparel Header"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "services.html">Services</a></li>
+	  <li><a href = "products.html">Products</a></li>
+	  <li><a href = "contact.html">Contact Us</a></li>
+	  <li><a href = "reviewsandgallery.html">Reviews and Gallery</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<h2>Gallery</h2>
+	<p> Below is a gallery of some of the products we have created at 4th & 10 Apparel. </p>
+    
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="one">1 / 6</div>
+      <img src="avalancheblackchampionship.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="princessremi.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="whiteonblackletter.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="avalanchewhite.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="nightowl.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="skylaravalanchewhite.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="avalancheblackchampionship.JPG" style="width:100%" onclick="currentSlide(1)" alt="Champions in 4th & 10">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="princessremi.JPG" style="width:100%" onclick="currentSlide(2)" alt="Princess Remi">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="whiteonblackletter.jpg" style="width:100%" onclick="currentSlide(3)" alt="White on black Jersey">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="avalanchewhite.jpg" style="width:100%" onclick="currentSlide(4)" alt="Avalanche Franco">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nightowl.JPG" style="width:100%" onclick="currentSlide(5)" alt="Jersey for Halloween Tournament">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="skylaravalanchewhite.jpg" style="width:100%" onclick="currentSlide(6)" alt="Clean White Uniforms">
+    </div>
+  </div>
+</div>
+    
+
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Operation Hours</h3>
+
+	<p>Monday-Friday: Noon-6 p.m.</p>
+	<p>Saturday-Sunday: Closed</p>
+    
+<figure>
+  <img src = "images/4thand10Thumbnail.jpg" alt = "4th and 10 Circle Logo"  />
+
+  <figcaption>
+    Making team gear, personal wear and whatever else you desire, possible. <br />
+    You want it, we do it.
+  </figcaption> 
+</figure>
+
+</aside>   
+    
+<footer> 
+
+	<p>4th & 10 Apparel<br />
+	Syracuse, UT 84075<br />
+	<a href = "https://facebook.com" target="
+https://www.facebook.com/4th-10-Apparel-109392381559255">Facebook</a> | <a href = "_blank">Instagram</a> |<a href = "tel:+8012013124">(801) 200-3114</a> | <a href = "mail:4thand10apparel@gmail.com">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+  
+</body>
+</html>
