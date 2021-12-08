@@ -71,8 +71,7 @@ nav ul li a:hover {
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    border-right: 2px solid;     
 }
 
 #main p {
@@ -206,6 +205,6 @@ col.dayCols {
 
 .visor{
     width: 200px;
-	padding-left: 100px;
+	padding-left: 115px;
 }
 
