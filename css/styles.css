@@ -153,7 +153,7 @@ footer a:hover {
 /* Table Styles */
 table.pricing {
 	background: white;
-	border: 10px outset rgb(153, 0, 153);
+	border: 10px outset rgb(163, 20, 20);
 	border-collapse: collapse;
 	font-size: 0.75em;
 	width: 100%;
