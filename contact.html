@@ -46,7 +46,34 @@
 
 <h3> Quotes</h3>
 	<p> Fill out the form below to get a personalized quote. </p>
+   
+<div class="container">
+  <form action="action_page.php">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+    <label for="email">Email</label>
+    <input type="text" id="lname" name="email" placeholder="Your email..">
+
+    <label for="products">Products Desired</label>
+    <select id="products" name="products">
+      <option value="fgear">Fan Gear</option>
+      <option value="tgear">Team Gear</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="details">Details</label>
+    <textarea id="details" name="details" placeholder="Give us some details on what you would like, the amount and what logos you have..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+    
 </article> <!-- end main -->
 
 <aside> 
